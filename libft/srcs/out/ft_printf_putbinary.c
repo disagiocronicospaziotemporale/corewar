@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf_putbinary.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anrzepec <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: anrzepec <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/25 10:02:30 by anrzepec          #+#    #+#             */
 /*   Updated: 2019/03/26 11:20:57 by anrzepec         ###   ########.fr       */

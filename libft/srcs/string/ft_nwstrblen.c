@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_nwstrblen.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anrzepec <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: anrzepec <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/23 13:01:08 by anrzepec          #+#    #+#             */
 /*   Updated: 2019/03/26 12:53:52 by anrzepec         ###   ########.fr       */

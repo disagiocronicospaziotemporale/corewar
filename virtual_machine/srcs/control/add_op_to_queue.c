@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   add_op_to_queue.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anrzepec <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: anrzepec <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/21 18:03:37 by anrzepec          #+#    #+#             */
 /*   Updated: 2019/04/22 14:58:57 by mriccard         ###   ########.fr       */

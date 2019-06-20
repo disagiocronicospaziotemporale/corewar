@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_get_next.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anrzepec <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: anrzepec <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/07 13:34:35 by anrzepec          #+#    #+#             */
 /*   Updated: 2019/04/27 20:40:40 by anrzepec         ###   ########.fr       */

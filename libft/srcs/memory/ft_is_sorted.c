@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_is_sorted.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anrzepec <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: anrzepec <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/30 14:07:26 by anrzepec          #+#    #+#             */
 /*   Updated: 2019/03/30 14:14:05 by anrzepec         ###   ########.fr       */

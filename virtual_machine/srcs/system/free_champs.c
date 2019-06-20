@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   free_champs.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anrzepec <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: anrzepec <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/17 17:36:54 by anrzepec          #+#    #+#             */
 /*   Updated: 2019/04/17 17:36:55 by anrzepec         ###   ########.fr       */

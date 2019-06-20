@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   remove_dead_processes.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anrzepec <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: anrzepec <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/15 17:16:27 by anrzepec          #+#    #+#             */
 /*   Updated: 2019/04/23 09:37:23 by mriccard         ###   ########.fr       */

@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstremove.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anrzepec <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: anrzepec <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/26 17:40:09 by anrzepec          #+#    #+#             */
 /*   Updated: 2019/02/26 17:40:10 by anrzepec         ###   ########.fr       */

@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstat.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anrzepec <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: anrzepec <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/26 16:45:02 by anrzepec          #+#    #+#             */
 /*   Updated: 2019/02/26 16:45:25 by anrzepec         ###   ########.fr       */

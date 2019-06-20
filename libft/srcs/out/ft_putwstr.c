@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putwstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anrzepec <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: anrzepec <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/20 12:08:54 by anrzepec          #+#    #+#             */
 /*   Updated: 2019/03/20 12:16:04 by anrzepec         ###   ########.fr       */

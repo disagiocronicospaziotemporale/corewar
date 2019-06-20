@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   exec_ops_queue.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anrzepec <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: anrzepec <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/21 18:01:56 by anrzepec          #+#    #+#             */
 /*   Updated: 2019/04/21 18:01:57 by anrzepec         ###   ########.fr       */

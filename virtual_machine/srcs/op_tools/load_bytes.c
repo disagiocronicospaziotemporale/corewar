@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   load_bytes.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anrzepec <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: anrzepec <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/20 12:21:06 by anrzepec          #+#    #+#             */
 /*   Updated: 2019/04/20 12:21:10 by anrzepec         ###   ########.fr       */

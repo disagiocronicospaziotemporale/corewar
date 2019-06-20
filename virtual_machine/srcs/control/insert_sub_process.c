@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   insert_sub_process.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anrzepec <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: anrzepec <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/16 12:28:53 by anrzepec          #+#    #+#             */
 /*   Updated: 2019/04/16 12:28:56 by anrzepec         ###   ########.fr       */

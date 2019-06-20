@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_clamp.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anrzepec <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: anrzepec <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/25 13:04:43 by anrzepec          #+#    #+#             */
 /*   Updated: 2019/03/25 13:06:02 by anrzepec         ###   ########.fr       */

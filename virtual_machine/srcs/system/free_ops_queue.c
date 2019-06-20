@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   free_ops_queue.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anrzepec <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: anrzepec <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/21 18:27:21 by anrzepec          #+#    #+#             */
 /*   Updated: 2019/04/21 18:27:22 by anrzepec         ###   ########.fr       */
