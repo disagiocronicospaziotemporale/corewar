@@ -6,7 +6,7 @@
 /*   By: mriccard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/01 11:08:07 by mriccard          #+#    #+#             */
-/*   Updated: 2019/04/22 00:50:52 by mriccard         ###   ########.fr       */
+/*   Updated: 2019/06/20 18:38:34 by mriccard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ static void			do_aff(void)
 	ft_printf("-X      Aff (Displayed as hexidecimal (upper case)).\n");
 	ft_printf("\n");
 	ft_printf("-n      Player number selection.\n");
-	ft_printf("        Example: > ./corewar -n 42 tasos.cor -n 7 marti.cor\n");
+	ft_printf("        Example: > ./corewar -n 42 volhan.cor -n 7 ric.cor\n");
 	ft_printf("        Corewar will auto-assign where no selection is made.\n");
 }
 
@@ -63,13 +63,12 @@ static void			do_mandatory(void)
 {
 	ft_printf("\n");
 	ft_printf("-dump   Dump memory.\n");
-	ft_printf("        Example: > ./corewar -dump 27 dav.cor federico.cor\n");
+	ft_printf("        Example: > ./corewar -dump 23 volhan.cor ric.cor\n");
 	ft_printf("        Here, Corewar will dump memory after 42 cycles.\n");
 	ft_printf("        Corewar can only accept 1 -dump argument.\n\n");
 	ft_printf("-debug  Debug Mode.\n");
-	ft_printf("        Example: > ./corewar -debug 27 dav.cor federico.cor\n");
+	ft_printf("        Example: > ./corewar -debug 23 volhan.cor ric.cor\n");
 	ft_printf("        Dumps memory in animation mode for debug purposes.\n");
-	ft_printf("        Corewar does not accept Bitcoin Cash LOL.\n");
 	ft_printf("        Corewar can only accept 1 -debug argument.\n");
 }
 
