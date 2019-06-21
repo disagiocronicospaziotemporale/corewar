@@ -3,113 +3,121 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: anrzepec <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: anrzepec <anrzepec@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/03/13 09:39:19 by anrzepec          #+#    #+#              #
-#    Updated: 2019/03/22 16:10:17 by anrzepec         ###   ########.fr        #
+#    Created: 2018/09/17 19:12:20 by anrzepec          #+#    #+#              #
+#    Updated: 2019/06/21 16:47:44 by mriccard         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libft.a
+NAME 	= 	libft.a
 
-GCC_FLAGS = -Werror -Wextra -Wall
+SRC 	= ft_printf/ft_printf.c \
+		  ft_printf/ft_format_parser.c \
+		  ft_printf/ft_apply_flags.c \
+		  ft_printf/ft_width.c \
+		  ft_printf/ft_attributes.c \
+		  ft_printf/ft_wildcard.c \
+		  ft_printf/ft_modifier.c \
+		  ft_printf/ft_struct_settings.c \
+		  ft_printf/ft_tools.c \
+		  ft_printf/ft_precision.c \
+		  ft_floor.c \
+		  ft_ftoa.c \
+		  ft_fmod.c \
+		  ft_uitoa_base.c \
+		  ft_itoa_base.c \
+		  ft_strrev.c \
+		  ft_char_count.c \
+		  get_next_line.c \
+		  ft_atoi.c \
+		  ft_bzero.c \
+		  ft_isalnum.c \
+		  ft_isalpha.c \
+		  ft_isascii.c \
+		  ft_isdigit.c \
+		  ft_isprint.c \
+		  ft_itoa.c \
+		  ft_lstadd.c \
+		  ft_lstdel.c \
+		  ft_lstdelone.c \
+		  ft_lstiter.c \
+		  ft_lstmap.c \
+		  ft_lstnew.c \
+		  ft_memalloc.c \
+		  ft_memccpy.c \
+		  ft_memchr.c \
+		  ft_memcmp.c \
+		  ft_memcpy.c \
+		  ft_memdel.c \
+		  ft_memmove.c \
+		  ft_memset.c \
+		  ft_putchar.c \
+		  ft_putchar_fd.c \
+		  ft_putendl.c \
+		  ft_putendl_fd.c \
+		  ft_putnbr.c \
+		  ft_putnbr_fd.c \
+		  ft_putstr.c \
+		  ft_putstr_fd.c \
+		  ft_strcat.c \
+		  ft_strchr.c \
+		  ft_strclr.c \
+		  ft_strcmp.c \
+		  ft_strcpy.c \
+		  ft_strdel.c \
+		  ft_strdup.c \
+		  ft_strequ.c \
+		  ft_striter.c \
+		  ft_striteri.c \
+		  ft_strjoin.c \
+		  ft_strlcat.c \
+		  ft_strlen.c \
+		  ft_strmap.c \
+		  ft_strmapi.c \
+		  ft_strncat.c \
+		  ft_strncmp.c \
+		  ft_strncpy.c \
+		  ft_strnequ.c \
+		  ft_strnew.c \
+		  ft_strnstr.c \
+		  ft_strrchr.c \
+		  ft_strsplit.c \
+		  ft_strstr.c \
+		  ft_strsub.c \
+		  ft_strtrim.c \
+		  ft_tolower.c \
+		  ft_toupper.c \
+		  ft_strndup.c \
+		  ft_strnum.c \
+		  ft_stralpha.c \
+		  ft_strupper.c \
+		  ft_strlower.c 
 
-LIBFT_IN_OBJS = ft_get_next_line.o ft_get_next.o
+OBJS	=	$(SRC:.c=.o)
 
-LIBFT_LIST_OBJS = ft_lstnew.o ft_lstcpy.o ft_lstappend.o ft_lstremove.o \
-	ft_lstdelone.o ft_lstdel.o ft_lstadd.o ft_lstiter.o ft_lstfind.o \
-	ft_lstmap.o ft_lstsize.o ft_lstlast.o ft_lstat.o \
-	ft_lstreverse.o ft_lstmerge.o ft_lstsort.o ft_lstsorted.o
+CC		=	gcc
 
-LIBFT_MATH_OBJS = ft_abs.o ft_clamp.o ft_sqrt.o ft_pow.o
+CFLAGS	+=	-Werror -Wall -Wextra
 
-LIBFT_MEMORY_OBJS = ft_memset.o ft_bzero.o ft_memcpy.o \
-	ft_memccpy.o ft_memmove.o ft_memchr.o ft_memcmp.o \
-	ft_memalloc.o ft_memdel.o ft_is_sorted.o \
-	ft_strdel_table.o ft_quicksort.o ft_swap.o \
-	ft_struct_del.o ft_strtable.o
+RM		=	rm -f
 
-LIBFT_OUT_OBJS = ft_putchar.o ft_putwchar.o \
-	ft_putstr.o ft_putwstr.o ft_putendl.o ft_putnbr.o \
-	ft_putwchar_fd.o ft_putchar_fd.o ft_putstr_fd.o \
-	ft_putwstr_fd.o ft_putendl_fd.o ft_putnbr_fd.o \
-	ft_putnstr.o ft_putnstr_fd.o ft_putnwstr.o ft_putnwstr_fd.o \
-	ft_printf.o ft_printf_parse.o ft_printf_put.o ft_printf_putid.o \
-	ft_printf_set_flags.o ft_printf_set_width.o \
-	ft_printf_set_precision.o ft_printf_set_length.o \
-	ft_printf_putstr.o ft_printf_putwstr.o \
-	ft_printf_putchar.o ft_printf_putwchar.o \
-	ft_printf_putnbr.o ft_printf_putonbr.o ft_printf_puthexanbr.o \
-	ft_printf_nbrs.o ft_printf_putaddr.o ft_printf_padding.o \
-	ft_printf_colors.o ft_printf_chars_written.o \
-	ft_printf_fd.o ft_printf_putbinary.o ft_printf_setup_ops.o \
-	ft_printf_types.o
+LIB		=	ar rc
 
-LIBFT_STRING_OBJS = ft_strlen.o ft_strdup.o ft_strcpy.o \
-	ft_strncpy.o ft_strcat.o ft_strncat.o ft_strlcat.o \
-	ft_strchr.o ft_strrchr.o ft_strstr.o ft_strnstr.o \
-	ft_strcmp.o ft_strncmp.o ft_atoi.o ft_atoi_n.o \
-	ft_atol.o ft_atoll.o ft_isalpha.o \
-	ft_isdigit.o ft_isalnum.o ft_isascii.o ft_isprint.o \
-	ft_toupper.o ft_tolower.o ft_islower.o ft_isspace.o \
-	ft_isupper.o ft_strnew.o ft_strdel.o ft_strclr.o \
-	ft_striter.o ft_striteri.o ft_strmap.o ft_strmapi.o \
-	ft_strequ.o ft_strnequ.o ft_strsub.o ft_strjoin.o \
-	ft_strtrim.o ft_strsplit.o ft_itoa.o ft_itoa_base.o \
-	ft_wcharlen.o ft_wstrlen.o ft_wstrblen.o ft_nwstrblen.o \
-	ft_isnumber.o ft_isinteger.o ft_strrev.o ft_split.o ft_strjoinfree.o
+all:		$(NAME)
 
-LIBFT_OBJS_DIR = objs
-LIBFT_IN_OBJS_DIR = $(LIBFT_OBJS_DIR)/in
-LIBFT_LIST_OBJS_DIR = $(LIBFT_OBJS_DIR)/list
-LIBFT_MATH_OBJS_DIR = $(LIBFT_OBJS_DIR)/math
-LIBFT_MEMORY_OBJS_DIR = $(LIBFT_OBJS_DIR)/memory
-LIBFT_OUT_OBJS_DIR = $(LIBFT_OBJS_DIR)/out
-LIBFT_STRING_OBJS_DIR = $(LIBFT_OBJS_DIR)/string
-LIBFT_OBJS_DIRS = $(LIBFT_IN_OBJS_DIR) $(LIBFT_LIST_OBJS_DIR) \
-	$(LIBFT_MATH_OBJS_DIR) $(LIBFT_MEMORY_OBJS_DIR) \
-	$(LIBFT_OUT_OBJS_DIR) $(LIBFT_STRING_OBJS_DIR)
+%.o:		%.c	
+			$(CC) $(CFLAGS) -c $< -o $@
 
-LIBFT_SRCS_DIR = srcs
-
-LIBFT_INCLUDES_DIR = includes
-LIBFT_INCLUDES_FILES = ft_printf ft_printf_colors libft
-LIBFT_HEADERS = $(addsuffix .h, $(patsubst %, $(LIBFT_INCLUDES_DIR)/%, $(LIBFT_INCLUDES_FILES)))
-
-OBJS = $(addprefix $(LIBFT_IN_OBJS_DIR)/, $(LIBFT_IN_OBJS))
-OBJS += $(addprefix $(LIBFT_LIST_OBJS_DIR)/, $(LIBFT_LIST_OBJS))
-OBJS += $(addprefix $(LIBFT_MATH_OBJS_DIR)/, $(LIBFT_MATH_OBJS))
-OBJS += $(addprefix $(LIBFT_MEMORY_OBJS_DIR)/, $(LIBFT_MEMORY_OBJS))
-OBJS += $(addprefix $(LIBFT_OUT_OBJS_DIR)/, $(LIBFT_OUT_OBJS))
-OBJS += $(addprefix $(LIBFT_STRING_OBJS_DIR)/, $(LIBFT_STRING_OBJS))
-
-SRCS = $(patsubst $(LIBFT_OBJS_DIR)/%.o, $(LIBFT_SRCS_DIR)/%.c, $(OBJS))
-
-GREEN_COLOR = "\033[0;32m"
-DEFAULT_COLOR = "\033[0m"
-
-all: $(NAME)
-
-norm:
-	@norminette $(LIBFT_INCLUDES_DIR) $(LIBFT_SRCS_DIR)
-
-$(NAME): $(LIBFT_OBJS_DIRS) $(OBJS) $(LIBFT_HEADERS)
-	@ar rc $(NAME) $(OBJS)
-	@ranlib $(NAME)
-
-$(LIBFT_OBJS_DIRS):
-	@mkdir -p $(LIBFT_OBJS_DIRS)
-
-$(LIBFT_OBJS_DIR)/%.o: $(LIBFT_SRCS_DIR)/%.c $(LIBFT_HEADERS)
-	@echo "Libft: " $(GREEN_COLOR) $< $(DEFAULT_COLOR)
-	@cc $(GCC_FLAGS) -c $< -o $@ -I $(LIBFT_INCLUDES_DIR)/
+$(NAME):	$(OBJS)
+			$(LIB) $(NAME) $(OBJS)
 
 clean:
-	@rm -rf $(OBJS) $(LIBFT_OBJS_DIR)
+			$(RM) $(OBJS)
 
-fclean: clean
-	@rm -rf $(NAME)
+fclean:		clean
+			$(RM) $(NAME)
 
-re: fclean all
+re:			fclean all
 
-.PHONY: all norm clean fclean re
+.PHONY: re all fclean clean
